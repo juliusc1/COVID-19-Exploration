@@ -53,17 +53,17 @@ Identifies top countries by new daily cases using `RANK()`.
 ## Project Structure
 
 ```text
+├── data/
+│   ├── CovidDeaths.csv 
+│   └── CovidVaccinations.csv
+├── images/
+    └── Covid19-Dashboard.png
 ├── queries/
 │   ├── 01_data_exploration.sql
 │   ├── 02_covid_advanced_analysis.sql
 │   └── 03_tableau_views.sql
-├── data/
-│   ├── CovidDeaths.csv 
-│   └── CovidVaccinations.csv 
 ├── tableau/
 │   ├── Covid19-Dashboard.twbx
-├── images/
-    └── Covid19-Dashboard.png
 ├── gitignore.
 └── README.md
 ```
